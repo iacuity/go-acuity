@@ -1,6 +1,7 @@
 package logger_test
 
 import (
+	"log"
 	"testing"
 
 	"logger"
@@ -22,4 +23,6 @@ func TestInit(t *testing.T) {
 	logger.Warn("Warn")
 	logger.Error("Error")
 	logger.Fatal("Fatal")
+
+	log.Println("Default logger")
 }

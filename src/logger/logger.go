@@ -41,6 +41,9 @@ func Init(fileName string) error {
 		}
 	}
 	l = log.New(fileHandle, "", log.Ldate|log.Ltime|log.Lshortfile)
+
+	// also set default log output to this file handle
+	log.SetOutput(fileHandle)
 	return nil
 }
 
