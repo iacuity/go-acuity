@@ -4,3 +4,7 @@
 - optimized multi http reqeust client (uses http.Client connection pool)
 - improcess memory cache with default and object level cache eviction policy
 - logger with logging level
+- bitmap implementation for space optimization
+- stathat client
+- utility
+    - generic binary search utility
