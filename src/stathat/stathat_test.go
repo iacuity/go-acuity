@@ -7,6 +7,6 @@ import (
 )
 
 func TestStathat(t *testing.T) {
-	ezKey := "patharetush@gmail.com"
+	ezKey := "xxxx@gmail.com"
 	stathat.Init(ezKey)
 }
